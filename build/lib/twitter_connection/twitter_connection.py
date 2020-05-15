@@ -1,7 +1,7 @@
 from requests_oauthlib import OAuth1Session
 import json
-import urls as u
-import format as f
+import twitter_connection.urls as u
+import twitter_connection.format as f
 
 
 class twitter_connection():
@@ -12,7 +12,6 @@ class twitter_connection():
         self.access_token = access_token
         self.access_token_secret = access_token_secret
 
-        
     def standard_search(self, 
                         search_terms=None, 
                         from_user=None, 
@@ -67,4 +66,3 @@ class twitter_connection():
 
         return(response.json())
     
-

@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="twitter_connection", # Replace with your own username
-    version="0.0.1",
+    version="0.0.4",
     author="Prithviraj Yuvaraj",
     author_email="ryuvaraj37@gmail.com",
     description="A library to connect to twitter API as a free user.",
